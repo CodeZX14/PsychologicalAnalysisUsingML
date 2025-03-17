@@ -1,10 +1,10 @@
 import os
 import streamlit as st
 import numpy as np
+import joblib
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-import joblib
 import extract_v3
 import categorize
 from PIL import Image
