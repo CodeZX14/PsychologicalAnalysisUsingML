@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 import numpy as np
+import sklearn
 # import joblib
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
